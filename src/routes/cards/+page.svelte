@@ -1,5 +1,6 @@
 <script>
 	import { cards } from './cards';
+	import Card from './Card.svelte';
 	var category = 'Faction';
 	var phase = 'all';
 	$: activeCards = cards.filter((x) => x.type == category);
@@ -26,17 +27,40 @@
 
 <section class="section">
 	<div class="columns is-multiline">
-		{#each activeCards as card}
-			<div class="column is-one-fifth">
-				<a href="/cards/{card.name}">
-					<div class="card has-background-dark mb-2">
-						<div class="card-content columns is-multiline">
-							<img src="/images/cards/{card.iname}1.png" alt="{card.name}" class="column is-full mx-auto" />
-							<span class="subtitle has-text-white has-text-centered column is-full">{card.name}</span>
-						</div>
-					</div>
-				</a>
-			</div>
+		{#each activeCards.filter((x) => x.phase == 'Meditation Phase') as card}
+			<Card {card} />
+		{/each}
+	</div>
+</section>
+
+<section class="section">
+	<div class="columns is-multiline">
+		{#each activeCards.filter((x) => x.phase == 'Foundation Phase') as card}
+			<Card {card} />
+		{/each}
+	</div>
+</section>
+
+<section class="section">
+	<div class="columns is-multiline">
+		{#each activeCards.filter((x) => x.phase == 'Virtuoso Phase') as card}
+			<Card {card} />
+		{/each}
+	</div>
+</section>
+
+<section class="section">
+	<div class="columns is-multiline">
+		{#each activeCards.filter((x) => x.phase == 'Immortal Phase') as card}
+			<Card {card} />
+		{/each}
+	</div>
+</section>
+
+<section class="section">
+	<div class="columns is-multiline">
+		{#each activeCards.filter((x) => x.phase == 'Incarnation Phase') as card}
+			<Card {card} />
 		{/each}
 	</div>
 </section>

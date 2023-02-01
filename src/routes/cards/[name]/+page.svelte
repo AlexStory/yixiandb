@@ -24,6 +24,9 @@
 		</div>
 
 		<div class="column flex">
+			<h2 class="is-size-2">Phase</h2>
+			<p class="text-xl mb-2">{card.phase}</p>
+
 			{#if card.faction}
 				<h2 class="is-size-2">Faction:</h2>
 				<p class="text-xl mb-2">{card.faction}</p>
