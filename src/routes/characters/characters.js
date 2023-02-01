@@ -44,26 +44,31 @@ export var characters = [
         abilities: [
             {
                 name: "Bloodline Potential",
+                iname: "bloodlinepotential",
                 phase: "Meditation Phase",
                 description: "Draw 1 card for every 18 Destiny lost",
             },
             {
                 name: "Fire Flame Blade",
+                iname: "fireflameblade",
                 phase: "Foundation Phase",
                 description: "Decrease 2 Max HP for each attack"
             },
             {
                 name: "Drift Ice Blade",
+                iname: "drifticeblade",
                 phase: "Virtuoso Phase",
                 description: "Add 1 DEF for each attack",
             },
             {
                 name: "Avalanche",
+                iname: "avalanche",
                 phase: "Immortality Phase",
                 description: "Draw 1 Cloud Sword - Avalanche",
             },
             {
                 name: "Flame Dance",
+                iname: "flamedance",
                 phase: "Incarnation Phase",
                 description: "Draw 1 Unrestrained Sord - Flame Dance",
             },
@@ -76,26 +81,31 @@ export var characters = [
         abilities: [
             {
                 name: "Curiosity",
+                iname: "curiosity",
                 phase: "Meditation Phase",
                 description: "When your Exchange Card Chance is up, you will exchange a rando msurprise card (up to 9 times)",
             },
             {
                 name: "Cat Paw",
+                iname: "catpaw",
                 phase: "Foundation Phase",
                 description: "Draw 1 Cloud Sword - Cat Paw",
             },
             {
                 name: "Cat Soul Bless",
+                iname: "catsoulbless",
                 phase: "Virtuoso Phase",
                 description: "When defeated in battle, if the damage of destiny is an even number, halve the damage",
             },
             {
                 name: "Spirit Cat Chaos Sword",
+                iname: "spiritcatchaossword",
                 phase: "Immortality Phase",
                 description: "Draw 1 Spirit Cat Chaos Sword",
             },
             {
                 name: "Lithe As Cat",
+                iname: "litheascat",
                 phase: "Incarnation Phase",
                 description: "Each time you play \"Cloud Sword\", add 1 Qi",
             },
@@ -108,27 +118,32 @@ export var characters = [
         abilities: [
             {
                 name: "Inheritance of Dragonling",
+                iname: "inheritanceofdragonling",
                 phase: "Meditation Phase",
                 description: "Draw 2 more cards in the first round, and then draw 2 cards after break through the Immortality Phase",
             },
             {
                 name: "Coral Sword",
+                iname: "coralsword",
                 phase: "Foundation Phase",
                 description: "At the beginning of battles, gain effect: The following 2 times attack will Ignore DEF",
 
             },
             {
                 name: "Dragon Scale",
+                iname: "dragonscale",
                 phase: "Virtuoso Phase",
                 description: "when taking Destiny damage greater than 18, reduce to 18",
             },
             {
                 name: "Pray Rain Of Cloud Sword",
+                iname: "prayrainofcloudsword",
                 phase: "Immortality Phase",
                 description: "Draw 1 Cloud Sword - Pray Rain",
             },
             {
                 name: "Sky Delicate Bracelet",
+                iname: "skydelicatebracelet",
                 phase: "Incarnation Phase",
                 description: "Draw 1 Sky Delicate Bracelet",
             },
