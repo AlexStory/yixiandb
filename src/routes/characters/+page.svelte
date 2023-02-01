@@ -3,7 +3,7 @@
 	import CharacteRows from './CharacteRows.svelte';
 
 	const swords = characters.filter((x) => x.faction == 'Cloud Spirit Sword Sect');
-	const heptastar = characters.filter((x) => x.faction == 'Heptastar Pavillion');
+	const heptastar = characters.filter((x) => x.faction == 'Heptastar Pavilion');
 	const elements = characters.filter((x) => x.faction == 'Five Elements Alliance');
 </script>
 
@@ -12,7 +12,7 @@
 <h2 class="is-size-3 pb-2">Cloud Spirit Sword Sect</h2>
 <CharacteRows characters={swords} />
 
-<h2 class="is-size-3 pb-2">Heptastar Pavillion</h2>
+<h2 class="is-size-3 pb-2">Heptastar Pavilion</h2>
 <CharacteRows characters={heptastar} />
 
 <h2 class="is-size-3 pb-2">Five Elements Alliance</h2>

@@ -154,7 +154,7 @@ export var characters = [
     {
         name: "Tan Shuyan",
         iname: "tan",
-        faction: "Heptastar Pavillion",
+        faction: "Heptastar Pavilion",
         abilities: [
             {
                 name: "Study Hard",
@@ -191,7 +191,7 @@ export var characters = [
     {
         name: "Yan Chen",
         iname: "yanchen",
-        faction: "Heptastar Pavillion",
+        faction: "Heptastar Pavilion",
         abilities: [
             {
                 name: "Bloodline Power",
@@ -228,7 +228,7 @@ export var characters = [
     {
         name: "Yao Ling",
         iname: "yaoling",
-        faction: "Heptastar Pavillion",
+        faction: "Heptastar Pavilion",
         abilities: [
             {
                 name: "Innate Spirit Body",
@@ -265,7 +265,7 @@ export var characters = [
     {
         name: "Jiang Ximing",
         iname: "jiang",
-        faction: "Heptastar Pavillion",
+        faction: "Heptastar Pavilion",
         abilities: [
             {
                 name: "Strategize",
