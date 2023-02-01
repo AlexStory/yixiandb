@@ -191,7 +191,7 @@ export var characters = [
     },
     {
         name: "Yao Ling",
-        faction: "Heptastar Paillion",
+        faction: "Heptastar Pavillion",
         abilities: [
             {
                 name: "Shift As Cloud",
