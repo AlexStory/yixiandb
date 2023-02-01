@@ -158,26 +158,31 @@ export var characters = [
         abilities: [
             {
                 name: "Study Hard",
+                iname: "studyhard",
                 phase: "Meditation Phase",
                 description: "For every 8 cards Absorb, draw 1 card",
             },
             {
                 name: "Only Traces",
+                iname: "onlytraces",
                 phase: "Foundation Phase",
                 description: "Draw 1 Only Traces",
             },
             {
                 name: "Birdie Wind",
+                iname: "birdiewind",
                 phase: "Virtuoso Phase",
                 description: "Add 1 DEF for each time your HP changes",
             },
             {
                 name: "Avatar of Bird Shade",
+                iname: "avatarofbirdshade",
                 phase: "Immortality Phase",
                 description: "When the next Destiny is exhausted, keep 1 Destiny and not be elminated, and draw 1 Only Traces",
             },
             {
                 name: "Cut Off Mundane",
+                iname: "cutoffmundane",
                 phase: "Incarnation Phase",
                 description: "Card in Meditation Phase will no longer appear in your draw card. Exchange Card chance add 3",
             },
@@ -190,26 +195,31 @@ export var characters = [
         abilities: [
             {
                 name: "Bloodline Power",
+                iname: "bloodlinepower",
                 phase: "Meditation Phase",
                 description: "Draw 1 card for every 30 Destiny damage dealt (Initial count 16)",
             },
             {
                 name: "Flame of life",
+                iname: "flameoflife",
                 phase: "Foundation Phase",
                 description: "when you wn the battle, deal 4 more Destiny damage",
             },
             {
-                name: "Ultimate Hxagram Base",
+                name: "Ultimate Hexagram Base",
+                iname: "ultimatehexagrambase",
                 phase: "Virtuoso Phase",
-                description: "Draw 1 Ultimate Hxagram Base",
+                description: "Draw 1 Ultimate Hexagram Base",
             },
             {
                 name: "Within Reach",
+                iname: "withinreach",
                 phase: "Immortality Phase",
                 description: "Draw 1 Within Reach",
             },
             {
                 name: "Fury Thunder",
+                iname: "furythunder",
                 phase: "Incarnation Phase",
                 description: "Draw 1 Fury Thunder",
             },
@@ -222,26 +232,31 @@ export var characters = [
         abilities: [
             {
                 name: "Innate Spirit Body",
+                iname: "innatespiritbody",
                 phase: "Meditation Phase",
                 description: "Each time break through the Phase draw a card of new Phase, but decrease 1 Maax HP to add",
             },
             {
                 name: "Crimson Yarn Guard",
+                iname: "crimsonyarnguard",
                 phase: "Foundation Phase",
                 description: "If Destiny damage is bigger or equal to 15 when defeated, resist this Destiny damage (Only Trigger Once)",
             },
             {
                 name: "Flame Flutter",
+                iname: "flameflutter",
                 phase: "Virtuoso Phase",
                 description: "Draw 1 Flame Flutter",
             },
             {
                 name: "Rotary Divination Hexagram",
+                iname: "rotarydivinationhexagram",
                 phase: "Immortality Phase",
                 description: "Draw 1 Rotary Divination Hexagram",
             },
             {
                 name: "Lantern Spirit Awakening",
+                iname: "lanternspiritawakening",
                 phase: "Incarnation Phase",
                 description: "Draw 1 card immediately. After this, for each round draw 1 more card, but add 1 less Exchange Card Chance",
             },
@@ -254,26 +269,31 @@ export var characters = [
         abilities: [
             {
                 name: "Strategize",
+                iname: "strategize",
                 phase: "Meditation Phase",
                 description: "Initial Cultivation+1. Draw 1 more card and 1 less Cultivation at the end of each battle round",
             },
             {
                 name: "Astrology",
+                iname: "astrology",
                 phase: "Foundation Phase",
                 description: "Whenever add Hexagram, if Star Power is 0, then ad 1 Star Power",
             },
             {
                 name: "Starburst",
+                iname: "starburst",
                 phase: "Virtuoso Phase",
                 description: "Draw 2 Starburst",
             },
             {
                 name: "Heptastar Soulstat",
+                iname: "heptastarsoulstat",
                 phase: "Immortality Phase",
                 description: "If the last slot of deck is empty, than add Heptastar Soulstat in the battle",
             },
             {
                 name: "Astral Divination Hexagram",
+                iname: "astraldivinationhexagram",
                 phase: "Incarnation Phase",
                 description: "Whenever playing \"Astral Move\" card add 1 stack of Hexagram",
             },
@@ -288,26 +308,31 @@ export var characters = [
         abilities: [
             {
                 name: "Battle Experience",
+                iname: "battleexperience",
                 phase: "Meditation Phase",
                 description: "Initial Exchange Card chance+2. Add 2 Exchange Card chance for each victory battle",
             },
             {
                 name: "Mark Of Five Elements",
+                iname: "markoffiveelements",
                 phase: "Foundation Phase",
                 description: "At the begginning of the battle you will gain: When you play Five Elements next time, activeate the Five Elements of the card first",
             },
             {
                 name: "Gourd Of Leisurely",
+                iname: "gourdofleisurely",
                 phase: "Virtuoso Phase",
                 description: "Draw 1 Gourd Of Leisurely",
             },
             {
                 name: "Avatar Of Five Elements",
+                iname: "avataroffiveelements",
                 phase: "Immortality Phase",
                 description: "When the next Destiny is exhausted, keep 1 Destiny and not be eliminated, and lose 5 Cultivation and draw 5 different Five Elements cards (Above Virtuoso Phase)",
             },
             {
                 name: "Inheritance of Five Elements",
+                iname: "inheritanceoffiveelements",
                 phase: "Incarnation Phase",
                 description: "Exchange Card chance decrease 5, Draw 1 Inheritance of Five Elements",
             },
@@ -320,26 +345,31 @@ export var characters = [
         abilities: [
             {
                 name: "Innate Five Elements",
+                iname: "innatefiveelements",
                 phase: "Meditation Phase",
                 description: "At the beginning of the game gain 1 random Element in the Innate Five Elements, after each Phase break through you will draw 1 card related to that Element",
             },
             {
                 name: "Innate Mark",
+                iname: "innatemark",
                 phase: "Foundation Phase",
                 description: "At the beinning of the battle Activate Innate Five Elements",
             },
             {
                 name: "Innate Spirit Formation",
+                iname: "innatespiritformation",
                 phase: "Virtuoso Phase",
                 description: "Lose 1 Cultivation, draw 1 related Innate Five Elements level 2 Spirit Formation card",
             },
             {
                 name: "Overcome with each other",
+                iname: "overcomewitheachother",
                 phase: "Immortality Phase",
                 description: "Lose 2 Cultivation, draw 2 Overcome with each other",
             },
             {
                 name: "Five Elements Anima",
+                iname: "fiveelementsanima",
                 phase: "Incarnation Phase",
                 description: "Each Element in Five Elements will have an extra effect when they are triggered for the first time:\nWood Spirit: Gain 1 stack of Increase ATK\nFireSpirit: Opponent loses 7 Max HP\nEarth Spirit: DEF+12\nMetal Spirit: Gain 4 stacks of Penetrate\nWater Spirit: Gain 2 stacks of Force of Water",
             },
@@ -352,26 +382,31 @@ export var characters = [
         abilities: [
             {
                 name: "The Body of Fierce Tiger",
+                iname: "thebodyoffiercetiger",
                 phase: "Meditation Phase",
                 description: "Each time break through thePhase add 2/3/4/5 more Max HP",
             },
             {
                 name: "Quench Of Wood Spirit",
+                iname: "quenchofwoodspirit",
                 phase: "Foundation Phase",
                 description: "When Absorb \"Wood Spirit\" card, add 1 Max HP (Trigger up to 7 times)",
             },
             {
                 name: "Kun Wu Metal Ring",
+                iname: "kunwumetalring",
                 phase: "Virtuoso Phase",
                 description: "Draw 1 Kun Wu Metal Ring",
             },
             {
                 name: "Vigorous",
+                iname: "vigorous",
                 phase: "Immortality Phase",
                 description: "Draw 1 Metal Spirit - Vigorous",
             },
             {
                 name: "Landslide",
+                iname: "landslide",
                 phase: "Incarnation Phase",
                 description: "Draw 1 Earth Spirit - Landslide",
             },
