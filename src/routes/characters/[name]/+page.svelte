@@ -3,6 +3,14 @@
 	import { characters } from '../characters';
 	const name = $page.params.name;
 	const character = characters.find((x) => x.name == name);
+	let n = 1;
+
+	function next() {
+		n++;
+		if (n > 3) {
+			n = 1;
+		}
+	}
 </script>
 
 {#if !character}

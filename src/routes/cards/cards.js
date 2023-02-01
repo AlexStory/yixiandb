@@ -1,6 +1,7 @@
 export var cards = [
     {
         name: "Cloud Sword - Touch Sky",
+        iname: "cloud-sword-touch-sky-",
         phase: "Foundation Phase",
         faction: "Cloud Spirit Sword Sect",
         cost: 0,
@@ -11,6 +12,7 @@ export var cards = [
     },
     {
         name: "Cloud Sword - Fleche",
+        iname: "cloud-sword-fleche-",
         phase: "Foundation Phase",
         faction: "Cloud Spirit Sword Sect",
         cost: 0,
@@ -22,6 +24,7 @@ export var cards = [
     },
     {
         name: "Cloud Sword - Touch Earth",
+        iname: "cloud-sword-touch-earth-",
         phase: "Foundation Phase",
         faction: "Cloud Spirit Sword Sect",
         cost: 0,
@@ -33,6 +36,7 @@ export var cards = [
     },
     {
         name: "Light Sword",
+        iname: "light-sword-",
         phase: "Foundation Phase",
         faction: "Cloud Spirit Sword Sect",
         cost: 0,
@@ -44,6 +48,7 @@ export var cards = [
     },
     {
         name: "Guard Qi",
+        iname: "guard-qi-",
         phase: "Foundation Phase",
         faction: "Cloud Spirit Sword Sect",
         cost: 0,
@@ -55,6 +60,7 @@ export var cards = [
     },
     {
         name: "Qi Perfusion",
+        iname: "qi-perfusion-",
         phase: "Foundation Phase",
         faction: "Cloud Spirit Sword Sect",
         cost: 0,
@@ -66,6 +72,7 @@ export var cards = [
     },
     {
         name: "Giant Tiger Spirit Sword",
+        iname: "giant-tiger-spirit-sword-",
         phase: "Foundation Phase",
         faction: "Cloud Spirit Sword Sect",
         cost: 1,
@@ -76,6 +83,7 @@ export var cards = [
     },
     {
         name: "Thunder Sword",
+        iname: "thunder-sword-",
         phase: "Foundation Phase",
         faction: "Cloud Spirit Sword Sect",
         cost: 1,
@@ -87,6 +95,7 @@ export var cards = [
     },
     {
         name: "Sword Slash",
+        iname: "sword-slash-",
         phase: "Foundation Phase",
         faction: "Cloud Spirit Sword Sect",
         cost: 0,
@@ -98,6 +107,7 @@ export var cards = [
     },
     {
         name: "Sword Defence",
+        iname: "sword-defence-",
         phase: "Foundation Phase",
         faction: "Cloud Spirit Sword Sect",
         cost: 0,
@@ -109,6 +119,7 @@ export var cards = [
     },
     {
         name: "Flying Fang Sword",
+        iname: "flying-fang-sword-",
         phase: "Foundation Phase",
         faction: "Cloud Spirit Sword Sect",
         cost: 1,
@@ -120,6 +131,7 @@ export var cards = [
     },
     {
         name: "Wind Sword",
+        iname: "wind-sword-",
         phase: "Foundation Phase",
         faction: "Cloud Spirit Sword Sect",
         cost: 1,

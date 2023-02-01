@@ -19,16 +19,19 @@ export var characters = [
             },
             {
                 name: "Endurance As Cloud Sea",
+                iname: "enduranceascloudsea",
                 phase: "Virtuoso Phase",
                 description: "Cloud Hit effect can be triggered even if there is no \"Cloud sword \" played first",
             },
             {
                 name: "Shade Of Cloud",
+                iname: "shadeofcloud",
                 phase: "Immortality Phase",
                 description: "When the next Destiny is exhausted, keep 1 Destiny and not be eliminated, add 4 Exchange Card Chances",
             },
             {
                 name: "Spring Course Tea",
+                iname: "springcoursetea",
                 phase: "Incarnation Phase",
                 description: "Draw 1 Spring Course Tea",
             },
