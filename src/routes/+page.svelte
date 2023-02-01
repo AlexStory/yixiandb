@@ -1,0 +1,13 @@
+<script>
+	import Header from './Header.svelte';
+</script>
+
+<Header />
+<h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+<style>
+	:global(body) {
+		background-color: #e8d8b8;
+	}
+</style>
