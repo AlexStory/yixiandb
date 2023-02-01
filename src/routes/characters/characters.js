@@ -2,6 +2,7 @@ export var characters = [
     // CLOUD SWORD SECT
     {
         name: "Mu Yifeng",
+        iname: "yifeng",
         faction: "Cloud Spirit Sword Sect",
         abilities: [
             {
@@ -33,6 +34,7 @@ export var characters = [
     },
     {
         name: "Yan Xue",
+        iname: "yanxue",
         faction: "Cloud Spirit Sword Sect",
         abilities: [
             {
@@ -64,6 +66,7 @@ export var characters = [
     },
     {
         name: "Lin Xiaoyue",
+        iname: "lin",
         faction: "Cloud Spirit Sword Sect",
         abilities: [
             {
@@ -95,6 +98,7 @@ export var characters = [
     },
     {
         name: "Long Yao",
+        iname: "longyao",
         faction: "Cloud Spirit Sword Sect",
         abilities: [
             {
@@ -129,6 +133,7 @@ export var characters = [
     // HEPTASTAR PAVILLION
     {
         name: "Tan Shuyan",
+        iname: "tan",
         faction: "Heptastar Pavillion",
         abilities: [
             {
@@ -160,6 +165,7 @@ export var characters = [
     },
     {
         name: "Yan Chen",
+        iname: "yanchen",
         faction: "Heptastar Pavillion",
         abilities: [
             {
@@ -191,6 +197,7 @@ export var characters = [
     },
     {
         name: "Yao Ling",
+        iname: "yaoling",
         faction: "Heptastar Pavillion",
         abilities: [
             {
@@ -222,6 +229,7 @@ export var characters = [
     },
     {
         name: "Jiang Ximing",
+        iname: "jiang",
         faction: "Heptastar Pavillion",
         abilities: [
             {
@@ -255,6 +263,7 @@ export var characters = [
     // FIVE ELEMENTS ALLIANCE
     {
         name: "Wu Xingzhi",
+        iname: "wu",
         faction: "Five Elements Alliance",
         abilities: [
             {
@@ -286,6 +295,7 @@ export var characters = [
     },
     {
         name: "Du Lingyuan",
+        iname: "du",
         faction: "Five Elements Alliance",
         abilities: [
             {
@@ -317,6 +327,7 @@ export var characters = [
     },
     {
         name: "Mu Hu",
+        iname: "muhu",
         faction: "Five Elements Alliance",
         abilities: [
             {

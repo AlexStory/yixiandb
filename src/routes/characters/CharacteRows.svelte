@@ -5,13 +5,14 @@
 <div class="columns">
 	{#each characters as character}
 		<div class="column is-one-quarter">
-			<div class="card has-background-dark">
-				<div class="card-content">
-					<a href="/characters/{character.name}" class="mx-2 has-text-white">
-						<span>{character.name}</span>
-					</a>
+			<a href="/characters/{character.name}" >
+				<div class="card has-background-dark py-2">
+					<div class="card-content columns is-multiline">
+						<img src="/images/character/{character.iname}.jpg" alt="{character.name}" class="column is-full mx-auto"/>
+						<span class="has-text-white block column is-full has-text-centered is-size-4">{character.name}</span>
+					</div>
 				</div>
-			</div>
+			</a>
 		</div>
 	{/each}
 </div>

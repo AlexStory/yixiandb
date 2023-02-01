@@ -9,17 +9,24 @@
 	<h1 class="is-size-1">Character not found</h1>
 {:else}
 	<h1 class="is-size-2">{character.name}</h1>
-	<h2 class="is-size-3">Faction:</h2>
-	<p class="text-xl mb-2">{character.faction}</p>
-
-	<h2 class="is-size-3">Abilities:</h2>
-
-	{#each character.abilities as ability}
-		<div class="my-2">
-			<h3 class="is-size-5 has-text-weight-bold">{ability.name} - {ability.phase}</h3>
-			<p>{ability.description}</p>
+	<div class="columns">
+		<div class="column is-one-quarter">
+			<img src="/images/character/{character.iname}.jpg" alt="{character.name}" />
 		</div>
-	{/each}
+		<div class="column">
+			<h2 class="is-size-3">Faction:</h2>
+			<p class="text-xl mb-2">{character.faction}</p>
+			
+			<h2 class="is-size-3">Abilities:</h2>
+			
+			{#each character.abilities as ability}
+			<div class="my-2">
+				<h3 class="is-size-5 has-text-weight-bold">{ability.name} - {ability.phase}</h3>
+				<p>{ability.description}</p>
+			</div>
+			{/each}
+		</div>
+	</div>
 {/if}
 
 <style>

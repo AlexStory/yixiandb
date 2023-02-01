@@ -27,8 +27,8 @@
 
 		<div id="navbarBasicExample" class="navbar-menu" class:is-active={active}>
 			<div class="navbar-start">
-				<a class="navbar-item" href="/cards">Cards</a>
-				<a class="navbar-item" href="/characters">Characters</a>
+				<a class="navbar-item is-dark" href="/cards" on:click={() => active =false}>Cards</a>
+				<a class="navbar-item is-dark" href="/characters" on:click={() => active =false}>Characters</a>
 			</div>
 		</div>
 	</nav>

@@ -9,13 +9,13 @@
 
 <h1 class="is-size-2">Characters</h1>
 
-<h2 class="is-size-3">Cloud Spirit Sword Sect</h2>
+<h2 class="is-size-3 pb-2">Cloud Spirit Sword Sect</h2>
 <CharacteRows characters={swords} />
 
-<h2 class="is-size-3">Heptastar Pavillion</h2>
+<h2 class="is-size-3 pb-2">Heptastar Pavillion</h2>
 <CharacteRows characters={heptastar} />
 
-<h2 class="is-size-3">Five Elements Alliance</h2>
+<h2 class="is-size-3 pb-2">Five Elements Alliance</h2>
 <CharacteRows characters={elements} />
 
 <style>
