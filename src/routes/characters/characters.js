@@ -7,11 +7,13 @@ export var characters = [
         abilities: [
             {
                 name: "Shift As Cloud",
+                iname: "shiftascloud",
                 phase: "Meditation Phase",
                 description: "The first card exchanged eaach round doesn't consume an Exchange Chance",
             },
             {
                 name: "Sword In Sheathed",
+                iname: "swordinsheathed",
                 phase: "Foundation Phase",
                 description: "If you do not attack this turn, add 3 DEF",
             },
