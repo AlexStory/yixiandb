@@ -1,12 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @font-face {
     font-family: 'BoshthonBrush';
     src: url('/fonts/BosthonBrush.ttf');
 }
 
 body {
+    min-height: 100vh;
     background-color: #e8d8b8;
 }

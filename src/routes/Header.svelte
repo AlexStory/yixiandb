@@ -1,12 +1,34 @@
-<header role="banner" class="mb-4">
-	<nav class="navbar pt-3">
-		<div class="bb max-w-screen-lg mx-auto flex justify-between">
-			<a href="/">
-				<h1 class="text-5xl">Yi Xian DB</h1>
+<script>
+	var active = false;
+</script>
+
+<header class="mb-2">
+	<nav class="navbar is-dark" aria-label="main navigation">
+		<div class="navbar-brand is-size-3">
+			<a class="navbar-item" href="/">
+				<h1>Yi Xian DB</h1>
 			</a>
-			<div>
-				<a href="/cards" class="capitalize font-semibold mx-3 text-xl">Cards</a>
-				<a href="/characters" class="capitalize font-semibold mx-3 text-xl">Characters</a>
+
+			<!-- svelte-ignore a11y-missing-attribute -->
+			<a
+				role="button"
+				class="navbar-burger"
+				class:is-active={active}
+				on:click={() => (active = !active)}
+				aria-label="menu"
+				aria-expanded="false"
+				data-target="navbarBasicExample"
+			>
+				<span aria-hidden="true" />
+				<span aria-hidden="true" />
+				<span aria-hidden="true" />
+			</a>
+		</div>
+
+		<div id="navbarBasicExample" class="navbar-menu" class:is-active={active}>
+			<div class="navbar-start">
+				<a class="navbar-item" href="/cards">Cards</a>
+				<a class="navbar-item" href="/characters">Characters</a>
 			</div>
 		</div>
 	</nav>
