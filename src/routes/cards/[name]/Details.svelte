@@ -13,6 +13,8 @@
 	import Regen from '$lib/components/Keywords/Regen.svelte';
 	import GuardUp from '$lib/components/Keywords/GuardUp.svelte';
 	import Hexagram from '$lib/components/Keywords/Hexagram.svelte';
+	import StarPoint from '$lib/components/Keywords/StarPoint.svelte';
+	import StarPower from '$lib/components/Keywords/StarPower.svelte';
 	export let details;
 </script>
 
@@ -39,6 +41,13 @@
 		</p>
 	{/if}
 
+	{#if details.atkRng}
+		<span class="has-text-danger has-text-weight-bold">{details.atkRng[0]}</span>~<span
+			class="has-text-danger has-text-weight-bold"
+			>{details.atkRng[1]}
+		</span><Atk />
+	{/if}
+
 	{#if details.qiAtkBonus}
 		<p>
 			Add <span class="has-text-weight-bold">{details.qiAtkBonus}</span>
@@ -52,6 +61,13 @@
 
 	{#if details.def}
 		<p><Def />+<span class="has-text-warning-dark has-text-weight-bold">{details.def}</span></p>
+	{/if}
+
+	{#if details.defRng}
+		<span class="has-text-warning-dark has-text-weight-bold">{details.defRng[0]}</span>~<span
+			class="has-text-warning-dark has-text-weight-bold"
+			>{details.defRng[1]}
+		</span><Def />
 	{/if}
 
 	{#if details.nextDef}
@@ -89,6 +105,14 @@
 
 	{#if details.guardUp}
 		Gain {details.guardUp} stacks of <GuardUp />
+	{/if}
+
+	{#if details.starNext}
+		The next {details.starNext} slots in your deck become <StarPoint />
+	{/if}
+
+	{#if details.starPower}
+		<StarPower />+<span class="has-text-weight-bold">{details.starPower}</span>
 	{/if}
 
 	{#if details.returnSwordIntent}
@@ -162,6 +186,14 @@
 		</p>
 	{/if}
 
+	{#if details.pctChanceAtk}
+		<p>
+			{details.pctChanceAtk.pct}% chance to make an additional
+			<span class="has-text-weight-bold">{details.pctChanceAtk.atk}</span>
+			<Atk />
+		</p>
+	{/if}
+
 	{#if details.atkPerDebuff}
 		<p>For each stack of Debuff the opponent has, this card gets {details.atkPerDebuff} <Atk /></p>
 	{/if}
@@ -225,17 +257,24 @@
 	{/if}
 
 	{#if details.qiOver}
-		<p class="is-size-4 py-2">If <Qi /> is greater than {details.qiOver.req}:</p>
+		<p class="has-text-weight-bold is-size-4 py-2">
+			If <Qi /> is greater than {details.qiOver.req}:
+		</p>
 		<svelte:self details={details.qiOver} />
 	{/if}
 
 	{#if details.postAction}
-		<p class="is-size-4 py-2">Post Action:</p>
+		<p class="has-text-weight-bold is-size-4 py-2">Post Action:</p>
 		<svelte:self details={details.postAction} />
 	{/if}
 
+	{#if details.starPoint}
+		<p class="has-text-weight-bold is-size-4 py-2">Star Point:</p>
+		<svelte:self details={details.starPoint} />
+	{/if}
+
 	{#if details.continuous}
-		<p class="is-size-4"><Continuous />:</p>
+		<p class="has-text-weight-bold is-size-4"><Continuous />:</p>
 		<svelte:self details={details.continuous} />
 	{/if}
 </div>

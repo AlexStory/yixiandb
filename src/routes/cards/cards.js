@@ -1379,5 +1379,263 @@ export var cards = [
             atk: 9,
             atkPerDebuff: 4,
         },
+    },
+    {
+        name: "Shifting Stars",
+        iname: "shifting-stars-",
+        phase: "Meditation Phase",
+        type: "Faction",
+        faction: "Heptastar Pavilion",
+        tier1: {
+            atk: 5,
+            starNext: 1,
+        },
+        tier2: {
+            atk: 8,
+            starNext: 1,
+        },
+        tier3: {
+            atk: 8,
+            starNext: 2,
+        },
+    },
+    {
+        name: "Dotted Around",
+        iname: "dotted-around-",
+        phase: "Meditation Phase",
+        type: "Faction",
+        faction: "Heptastar Pavilion",
+        tier1: {
+            qi: 1,
+            def: 2,
+            starPower: 1,
+        },
+        tier2: {
+            qi: 2,
+            def: 3,
+            starPower: 1,
+        },
+        tier3: {
+            qi: 2,
+            def: 4,
+            starPower: 2,
+        },
+    },
+    {
+        name: "Astral Move - Block",
+        iname: "astral-move-block-",
+        phase: "Meditation Phase",
+        type: "Faction",
+        faction: "Heptastar Pavilion",
+        tier1: {
+            atk: 6,
+            starPoint: {
+                def: 2,
+            }
+        },
+        tier2: {
+            atk: 8,
+            starPoint: {
+                def: 4,
+            },
+        },
+        tier3: {
+            atk: 10,
+            starPoint: {
+                def: 6,
+            },
+        },
+    },
+    {
+        name: "Astral Move - Flank",
+        iname: "astral-move-flank-",
+        phase: "Meditation Phase",
+        type: "Faction",
+        faction: "Heptastar Pavilion",
+        tier1: {
+            atk: 6,
+            starPoint: {
+                atk: 5,
+            },
+        },
+        tier2: {
+            atk: 7,
+            starPoint: {
+                atk: 7,
+            },
+        },
+        tier3: {
+            atk: 8,
+            starPoint: {
+                atk: 9,
+            },
+        },
+    },
+    {
+        name: "Zhen Hexagram",
+        iname: "zhen-hexagram-",
+        phase: "Meditation Phase",
+        type: "Faction",
+        faction: "Heptastar Pavilion",
+        tier1: {
+            atk: 4,
+            hexagram: 1,
+        },
+        tier2: {
+            atk: 7,
+            hexagram: 1,
+        },
+        tier3: {
+            atk: 10,
+            hexagram: 1,
+        },
+    },
+    {
+        name: "Earth Hexagram",
+        iname: "earth-hexagram-",
+        phase: "Meditation Phase",
+        type: "Faction",
+        faction: "Heptastar Pavilion",
+        tier1: {
+            def: 2,
+            hexagram: 2,
+        },
+        tier2: {
+            def: 2,
+            hexagram: 3,
+        },
+        tier3: {
+            def: 2,
+            hexagram: 4,
+        },
+    },
+    {
+        name: "Wind Hexagram",
+        iname: "wind-hexagram-",
+        phase: "Meditation Phase",
+        type: "Faction",
+        faction: "Heptastar Pavilion",
+        tier1: {
+            qi: 1,
+            hexagram: 1,
+        },
+        tier2: {
+            qi: 2,
+            hexagram: 1,
+        },
+        tier3: {
+            qi: 2,
+            hexagram: 2,
+        },
+    },
+    {
+        name: "Palm Thunder",
+        iname: "palm-thunder-",
+        phase: "Meditation Phase",
+        type: "Faction",
+        faction: "Heptastar Pavilion",
+        tier1: {
+            atkRng: [2, 10],
+        },
+        tier2: {
+            atkRng: [5, 13],
+        },
+        tier3: {
+            atkRng: [8, 16],
+        },
+    },
+    {
+        name: "White Crane Bright Wings",
+        iname: "white-crane-bright-wings-",
+        phase: "Meditation Phase",
+        type: "Faction",
+        faction: "Heptastar Pavilion",
+        tier1: {
+            atkRng: [1, 8],
+            qi: 1,
+        },
+        tier2: {
+            atkRng: [1, 8],
+            qi: 2,
+        },
+        tier3: {
+            atkRng: [1, 8],
+            qi: 3,
+        },
+    },
+    {
+        name: "Sparrow's Tail",
+        iname: "sparrows-tail-",
+        phase: "Meditation Phase",
+        type: "Faction",
+        faction: "Heptastar Pavilion",
+        tier1: {
+            atk: 9,
+            pctChanceAtk: {
+                pct: 10,
+                atk: 5,
+            },
+        },
+        tier2: {
+            atk: 10,
+            pctChanceAtk: {
+                pct: 10,
+                atk: 7,
+            },
+        },
+        tier3: {
+            atk: 11,
+            pctChanceAtk: {
+                pct: 10,
+                atk: 9,
+            },
+        },
+    },
+    {
+        name: "Striding Into the Wind",
+        iname: "striding-into-the-wind-",
+        phase: "Meditation Phase",
+        type: "Faction",
+        faction: "Heptastar Pavilion",
+        tier1: {
+            atk: 3,
+            nAtks: 2,
+            defRng: [1, 10],
+        },
+        tier2: {
+            atk: 4,
+            nAtks: 2,
+            defRng: [1, 12],
+        },
+        tier3: {
+            atk: 5,
+            nAtks: 2,
+            defRng: [1, 14],
+        },
+    },
+    {
+        name: "Incessant",
+        iname: "incessant-",
+        phase: "Meditation Phase",
+        type: "Faction",
+        faction: "Heptastar Pavilion",
+        tier1: {
+            atk: 6,
+            postAction: {
+                hp: 2,
+            },
+        },
+        tier2: {
+            atk: 9,
+            postAction: {
+                hp: 4,
+            },
+        },
+        tier3: {
+            atk: 12,
+            postAction: {
+                hp: 6,
+            },
+        },
     }
 ]
