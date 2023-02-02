@@ -1,6 +1,6 @@
 <script>
 	import { cards } from './cards';
-	import Card from './Card.svelte';
+	import FactionCards from './FactionCards.svelte';
 	var category = 'Faction';
 	var phase = 'all';
 	$: activeCards = cards.filter((x) => x.type == category);
@@ -25,45 +25,9 @@
 	</ul>
 </div>
 
-<section class="section">
-	<div class="columns is-multiline">
-		{#each activeCards.filter((x) => x.phase == 'Meditation Phase') as card}
-			<Card {card} />
-		{/each}
-	</div>
-</section>
-
-<section class="section">
-	<div class="columns is-multiline">
-		{#each activeCards.filter((x) => x.phase == 'Foundation Phase') as card}
-			<Card {card} />
-		{/each}
-	</div>
-</section>
-
-<section class="section">
-	<div class="columns is-multiline">
-		{#each activeCards.filter((x) => x.phase == 'Virtuoso Phase') as card}
-			<Card {card} />
-		{/each}
-	</div>
-</section>
-
-<section class="section">
-	<div class="columns is-multiline">
-		{#each activeCards.filter((x) => x.phase == 'Immortal Phase') as card}
-			<Card {card} />
-		{/each}
-	</div>
-</section>
-
-<section class="section">
-	<div class="columns is-multiline">
-		{#each activeCards.filter((x) => x.phase == 'Incarnation Phase') as card}
-			<Card {card} />
-		{/each}
-	</div>
-</section>
+{#if category == 'Faction'}
+	<FactionCards cards={activeCards} />
+{/if}
 
 <style>
 	h1,
