@@ -10,6 +10,9 @@
 	import Hp from '$lib/components/Keywords/Hp.svelte';
 	import Chase from '$lib/components/Keywords/Chase.svelte';
 	import IncreaseAtk from '$lib/components/Keywords/IncreaseAtk.svelte';
+	import Regen from '$lib/components/Keywords/Regen.svelte';
+	import GuardUp from '$lib/components/Keywords/GuardUp.svelte';
+	import Hexagram from '$lib/components/Keywords/Hexagram.svelte';
 	export let details;
 </script>
 
@@ -24,6 +27,10 @@
 
 	{#if details.qi}
 		<p><Qi />+<span class="has-text-weight-bold has-text-link">{details.qi}</span></p>
+	{/if}
+
+	{#if details.hexagram}
+		<p><Hexagram />+<span class="has-text-weight-bold">{details.hexagram}</span></p>
 	{/if}
 
 	{#if details.atk || details.atk === 0}
@@ -76,6 +83,14 @@
 		<p>Opponent loses {details.loseQi} <Qi /></p>
 	{/if}
 
+	{#if details.regen}
+		Gain {details.regen} stacks of <Regen />
+	{/if}
+
+	{#if details.guardUp}
+		Gain {details.guardUp} stacks of <GuardUp />
+	{/if}
+
 	{#if details.returnSwordIntent}
 		<p>
 			Return the <SwordIntent /> used by this attack
@@ -115,6 +130,10 @@
 		<p>Add <span class="has-text-weight-bold">1</span> <Qi /> every turn</p>
 	{/if}
 
+	{#if details.hexPerTurn}
+		At the beginning of your turn, gain <span class="has-text-weight-bold">1</span> <Hexagram />
+	{/if}
+
 	{#if details.decreaseSpiritCost}
 		<p>
 			The "Spirit Sword" card's <Qi /> cost decrease <span class="has-text-weight-bold">1</span>
@@ -141,6 +160,10 @@
 			Add <span class="has-text-weight-bold">1</span>
 			<Qi /> for every attack that <Injured /> the opponent
 		</p>
+	{/if}
+
+	{#if details.atkPerDebuff}
+		<p>For each stack of Debuff the opponent has, this card gets {details.atkPerDebuff} <Atk /></p>
 	{/if}
 
 	{#if details.exhaustQiToAtk}
@@ -172,6 +195,13 @@
 		</p>
 	{/if}
 
+	{#if details.successiveCloudAttack}
+		<p>
+			For every successive "Cloud Sword" played before this card, add {details.successiveCloudAttack}
+			<Atk />
+		</p>
+	{/if}
+
 	{#if details.text}
 		<p>{details.text}</p>
 	{/if}
@@ -197,6 +227,11 @@
 	{#if details.qiOver}
 		<p class="is-size-4 py-2">If <Qi /> is greater than {details.qiOver.req}:</p>
 		<svelte:self details={details.qiOver} />
+	{/if}
+
+	{#if details.postAction}
+		<p class="is-size-4 py-2">Post Action:</p>
+		<svelte:self details={details.postAction} />
 	{/if}
 
 	{#if details.continuous}

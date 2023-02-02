@@ -1,8 +1,8 @@
 <script>
 	import { cards } from './cards';
 	import FactionCards from './FactionCards.svelte';
+	import CharacterCards from './CharacterCards.svelte';
 	var category = 'Faction';
-	var phase = 'all';
 	$: activeCards = cards.filter((x) => x.type == category);
 </script>
 
@@ -29,9 +29,12 @@
 	<FactionCards cards={activeCards} />
 {/if}
 
+{#if category == 'Character'}
+	<CharacterCards cards={activeCards} />
+{/if}
+
 <style>
-	h1,
-	h2 {
+	h1 {
 		font-family: 'BoshthonBrush';
 	}
 

@@ -26,7 +26,7 @@ export var characters = [
             {
                 name: "Shade Of Cloud",
                 iname: "shadeofcloud",
-                phase: "Immortality Phase",
+                phase: "Immortalityity Phase",
                 description: "When the next Destiny is exhausted, keep 1 Destiny and not be eliminated, add 4 Exchange Card Chances",
             },
             {
@@ -63,7 +63,7 @@ export var characters = [
             {
                 name: "Avalanche",
                 iname: "avalanche",
-                phase: "Immortality Phase",
+                phase: "Immortalityity Phase",
                 description: "Draw 1 Cloud Sword - Avalanche",
             },
             {
@@ -100,7 +100,7 @@ export var characters = [
             {
                 name: "Spirit Cat Chaos Sword",
                 iname: "spiritcatchaossword",
-                phase: "Immortality Phase",
+                phase: "Immortalityity Phase",
                 description: "Draw 1 Spirit Cat Chaos Sword",
             },
             {
@@ -120,7 +120,7 @@ export var characters = [
                 name: "Inheritance of Dragonling",
                 iname: "inheritanceofdragonling",
                 phase: "Meditation Phase",
-                description: "Draw 2 more cards in the first round, and then draw 2 cards after break through the Immortality Phase",
+                description: "Draw 2 more cards in the first round, and then draw 2 cards after break through the Immortalityity Phase",
             },
             {
                 name: "Coral Sword",
@@ -138,7 +138,7 @@ export var characters = [
             {
                 name: "Pray Rain Of Cloud Sword",
                 iname: "prayrainofcloudsword",
-                phase: "Immortality Phase",
+                phase: "Immortalityity Phase",
                 description: "Draw 1 Cloud Sword - Pray Rain",
             },
             {
@@ -177,7 +177,7 @@ export var characters = [
             {
                 name: "Avatar of Bird Shade",
                 iname: "avatarofbirdshade",
-                phase: "Immortality Phase",
+                phase: "Immortalityity Phase",
                 description: "When the next Destiny is exhausted, keep 1 Destiny and not be elminated, and draw 1 Only Traces",
             },
             {
@@ -214,7 +214,7 @@ export var characters = [
             {
                 name: "Within Reach",
                 iname: "withinreach",
-                phase: "Immortality Phase",
+                phase: "Immortalityity Phase",
                 description: "Draw 1 Within Reach",
             },
             {
@@ -251,7 +251,7 @@ export var characters = [
             {
                 name: "Rotary Divination Hexagram",
                 iname: "rotarydivinationhexagram",
-                phase: "Immortality Phase",
+                phase: "Immortalityity Phase",
                 description: "Draw 1 Rotary Divination Hexagram",
             },
             {
@@ -288,7 +288,7 @@ export var characters = [
             {
                 name: "Heptastar Soulstat",
                 iname: "heptastarsoulstat",
-                phase: "Immortality Phase",
+                phase: "Immortalityity Phase",
                 description: "If the last slot of deck is empty, than add Heptastar Soulstat in the battle",
             },
             {
@@ -327,7 +327,7 @@ export var characters = [
             {
                 name: "Avatar Of Five Elements",
                 iname: "avataroffiveelements",
-                phase: "Immortality Phase",
+                phase: "Immortalityity Phase",
                 description: "When the next Destiny is exhausted, keep 1 Destiny and not be eliminated, and lose 5 Cultivation and draw 5 different Five Elements cards (Above Virtuoso Phase)",
             },
             {
@@ -364,7 +364,7 @@ export var characters = [
             {
                 name: "Overcome with each other",
                 iname: "overcomewitheachother",
-                phase: "Immortality Phase",
+                phase: "Immortalityity Phase",
                 description: "Lose 2 Cultivation, draw 2 Overcome with each other",
             },
             {
@@ -401,7 +401,7 @@ export var characters = [
             {
                 name: "Vigorous",
                 iname: "vigorous",
-                phase: "Immortality Phase",
+                phase: "Immortalityity Phase",
                 description: "Draw 1 Metal Spirit - Vigorous",
             },
             {

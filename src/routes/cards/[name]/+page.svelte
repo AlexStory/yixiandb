@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import { cards } from '../cards';
+	import CharacterCards from '../CharacterCards.svelte';
 	import Details from './Details.svelte';
 	const name = $page.params.name;
 	const card = cards.find((x) => x.name == name);
@@ -30,6 +31,11 @@
 			{#if card.faction}
 				<h2 class="is-size-2">Faction:</h2>
 				<p class="text-xl mb-2">{card.faction}</p>
+			{/if}
+
+			{#if card.character}
+				<h2 class="is-size-2">Character:</h2>
+				<p class="text-xl mb-2"><a href="/characters/{card.character}">{card.character}</a></p>
 			{/if}
 
 			<h2 class="is-size-2">Details:</h2>

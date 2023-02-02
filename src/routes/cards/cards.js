@@ -766,7 +766,7 @@ export var cards = [
     {
         name: "Cloud Sword - Flash wind",
         iname: "cloud-sword-flash-wind-",
-        phase: "Immortal Phase",
+        phase: "Immortality Phase",
         type: "Faction",
         faction: "Cloud Spirit Sword Sect",
         tier1: {
@@ -791,7 +791,7 @@ export var cards = [
     {
         name: "Cloud Sword - Moon Shade",
         iname: "cloud-sword-moon-shade-",
-        phase: "Immortal Phase",
+        phase: "Immortality Phase",
         type: "Faction",
         faction: "Cloud Spirit Sword Sect",
         tier1: {
@@ -816,7 +816,7 @@ export var cards = [
     {
         name: "Spirit Gather Citta-Dharma",
         iname: "spirit-gather-citta-dharma-",
-        phase: "Immortal Phase",
+        phase: "Immortality Phase",
         type: "Faction",
         faction: "Cloud Spirit Sword Sect",
         tier1: {
@@ -841,7 +841,7 @@ export var cards = [
     {
         name: "CentiBird Spirit Sword Rhythm",
         iname: "centibird-spirit-sword-rhythm-",
-        phase: "Immortal Phase",
+        phase: "Immortality Phase",
         type: "Faction",
         faction: "Cloud Spirit Sword Sect",
         tier1: {
@@ -866,7 +866,7 @@ export var cards = [
     {
         name: "Egret Spirit Sword",
         iname: "egret-spirit-sword-",
-        phase: "Immortal Phase",
+        phase: "Immortality Phase",
         type: "Faction",
         faction: "Cloud Spirit Sword Sect",
         tier1: {
@@ -888,7 +888,7 @@ export var cards = [
     {
         name: "Giant Kun Spirit Sword",
         iname: "giant-kun-spirit-sword-",
-        phase: "Immortal Phase",
+        phase: "Immortality Phase",
         type: "Faction",
         faction: "Cloud Spirit Sword Sect",
         tier1: {
@@ -913,7 +913,7 @@ export var cards = [
     {
         name: "Inspiration Sword",
         iname: "inspiration-sword-",
-        phase: "Immortal Phase",
+        phase: "Immortality Phase",
         type: "Faction",
         faction: "Cloud Spirit Sword Sect",
         tier1: {
@@ -938,7 +938,7 @@ export var cards = [
     {
         name: "Flow Cloud Chaos Sword",
         iname: "flow-cloud-chaos-sword-",
-        phase: "Immortal Phase",
+        phase: "Immortality Phase",
         type: "Faction",
         faction: "Cloud Spirit Sword Sect",
         tier1: {
@@ -957,7 +957,7 @@ export var cards = [
     {
         name: "Moon Water Sword Formation",
         iname: "moon-water-sword-formation-",
-        phase: "Immortal Phase",
+        phase: "Immortality Phase",
         type: "Faction",
         faction: "Cloud Spirit Sword Sect",
         tier1: {
@@ -976,7 +976,7 @@ export var cards = [
     {
         name: "Unrestrained Sword - Two",
         iname: "unrestrained-sword-two-",
-        phase: "Immortal Phase",
+        phase: "Immortality Phase",
         type: "Faction",
         faction: "Cloud Spirit Sword Sect",
         tier1: {
@@ -1178,6 +1178,206 @@ export var cards = [
             continuous: {
                 unrestrainedInjured: 60,
             },
+        },
+    },
+    {
+        name: "Cloud Sword - Avalanche",
+        iname: "cloud-sword-avalanche-",
+        phase: "Immortality Phase",
+        type: "Character",
+        character: "Yan Xue",
+        tier1: {
+            atk: 2,
+            cloudHit: {
+                successiveCloudAttack: 4,
+            },
+        },
+        tier2: {
+            atk: 2,
+            cloudHit: {
+                successiveCloudAttack: 5,
+            },
+        },
+        tier3: {
+            atk: 2,
+            cloudHit: {
+                successiveCloudAttack: 6,
+            },
+        },
+    },
+    {
+        name: "Unrestrained Sword - Flame Dance",
+        iname: "unrestrained-sword-flame-dance-",
+        phase: "Incarnation Phase",
+        type: "Character",
+        character: "Yan Xue",
+        tier1: {
+            atk: 6,
+            text: "If you have played \"Unrestrained Sword\" card in this battle",
+            chase: true
+        },
+        tier2: {
+            atk: 12,
+            text: "If you have played \"Unrestrained Sword\" card in this battle",
+            chase: true
+        },
+        tier3: {
+            atk: 18,
+            text: "If you have played \"Unrestrained Sword\" card in this battle",
+            chase: true
+        },
+    },
+    {
+        name: "Cloud Sword - Pray Rain",
+        iname: "cloud-sword-pray-rain-",
+        phase: "Immortality Phase",
+        type: "Character",
+        character: "Long Yao",
+        tier1: {
+            atk: 3,
+            nAtks: 3,
+            cloudHit: {
+                regen: 2,
+            },
+        },
+        tier2: {
+            atk: 4,
+            nAtks: 3,
+            cloudHit: {
+                regen: 3,
+            },
+        },
+        tier3: {
+            atk: 5,
+            nAtks: 3,
+            cloudHit: {
+                regen: 4,
+            },
+        },
+    },
+    {
+        name: "Sky Delicate Bracelet",
+        iname: "sky-delicate-bracelet-",
+        phase: "Incarnation Phase",
+        type: "Character",
+        character: "Long Yao",
+        tier1: {
+            guardUp: 1,
+            chase: true,
+        },
+        tier2: {
+            guardUp: 2,
+            chase: true,
+        },
+        tier3: {
+            guardUp: 3,
+            chase: true,
+        },
+    },
+    {
+        name: "Cloud Sword - Cat Paw",
+        iname: "cloud-sword-cat-paw-",
+        phase: "Foundation Phase",
+        type: "Character",
+        character: "Lin Xiaoyue",
+        tier1: {
+            atk: 5,
+            nAtks: 2,
+            text: "This card's attacks Ignore DEF",
+        },
+        tier2: {
+            atk: 7,
+            nAtks: 2,
+            text: "This card's attacks Ignore DEF",
+        },
+        tier3: {
+            atk: 9,
+            nAtks: 2,
+            text: "This card's attacks Ignore DEF",
+        },
+    },
+    {
+        name: "Spirt Cat Chaos Sword",
+        iname: "spirit-cat-chaos-",
+        phase: "Immortality Phase",
+        type: "Character",
+        character: "Lin Xiaoyue",
+        tier1: {
+            atk: 2,
+            text: "Attack time equals to your remaining hand cards (Up to 5 times)",
+        },
+        tier2: {
+            atk: 2,
+            text: "Attack time equals to your remaining hand cards (Up to 6 times)",
+        },
+        tier3: {
+            atk: 2,
+            text: "Attack time equals to your remaining hand cards (Up to 7 times)",
+        },
+    },
+    {
+        name: "Only Traces",
+        iname: "only-traces-",
+        phase: "Foundation Phase",
+        type: "Character",
+        character: "Tan Shuyan",
+        tier1: {
+            qi: 3,
+            postAction: {
+
+                chase: true,
+            },
+        },
+        tier2: {
+            qi: 3,
+            chase: true,
+        },
+        tier3: {
+            qi: 4,
+            chase: true,
+        },
+    },
+    {
+        name: "Ultimate Hexagram Base",
+        iname: "ultimate-hexagram-base-",
+        phase: "Virtuoso Phase",
+        type: "Character",
+        character: "Yan Chen",
+        tier1: {
+            continuous: {
+                hexPerTurn: 1,
+            }
+        },
+        tier2: {
+            hexagram: 2,
+            continuous: {
+                hexPerTurn: 1,
+            }
+        },
+        tier3: {
+            hexagram: 4,
+            continuous: {
+                hexPerTurn: 1,
+            },
+        },
+    },
+    {
+        name: "Within Reach",
+        iname: "within-reach-",
+        phase: "Immortality Phase",
+        type: "Character",
+        character: "Yan Chen",
+        tier1: {
+            atk: 9,
+            atkPerDebuff: 2,
+        },
+        tier2: {
+            atk: 9,
+            atkPerDebuff: 3,
+        },
+        tier3: {
+            atk: 9,
+            atkPerDebuff: 4,
         },
     }
 ]

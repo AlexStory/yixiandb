@@ -1,6 +1,6 @@
 <script>
 	export let cards;
-	import Card from './Card.svelte';
+	import CardRows from './CardRows.svelte';
 	let faction = 'Cloud Spirit Sword Sect';
 	$: activeCards = cards.filter((x) => x.faction == faction);
 </script>
@@ -27,43 +27,4 @@
 		</li>
 	</ul>
 </div>
-
-<section class="section">
-	<div class="columns is-multiline">
-		{#each activeCards.filter((x) => x.phase == 'Meditation Phase') as card}
-			<Card {card} />
-		{/each}
-	</div>
-</section>
-
-<section class="section">
-	<div class="columns is-multiline">
-		{#each activeCards.filter((x) => x.phase == 'Foundation Phase') as card}
-			<Card {card} />
-		{/each}
-	</div>
-</section>
-
-<section class="section">
-	<div class="columns is-multiline">
-		{#each activeCards.filter((x) => x.phase == 'Virtuoso Phase') as card}
-			<Card {card} />
-		{/each}
-	</div>
-</section>
-
-<section class="section">
-	<div class="columns is-multiline">
-		{#each activeCards.filter((x) => x.phase == 'Immortal Phase') as card}
-			<Card {card} />
-		{/each}
-	</div>
-</section>
-
-<section class="section">
-	<div class="columns is-multiline">
-		{#each activeCards.filter((x) => x.phase == 'Incarnation Phase') as card}
-			<Card {card} />
-		{/each}
-	</div>
-</section>
+<CardRows {activeCards} />
